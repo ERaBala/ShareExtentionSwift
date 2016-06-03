@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GetURL.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>ShareExtentionSwift.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>CEAEA1E31D015E9D003D9621</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CEAEA1FC1D015EE0003D9621</key>
 		<dict>
 			<key>primary</key>
 			<true/>
