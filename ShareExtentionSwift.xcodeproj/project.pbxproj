@@ -15,6 +15,7 @@
 		CEAEA2001D015EE0003D9621 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEA1FF1D015EE0003D9621 /* ShareViewController.swift */; };
 		CEAEA2031D015EE0003D9621 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAEA2011D015EE0003D9621 /* MainInterface.storyboard */; };
 		CEAEA2071D015EE0003D9621 /* GetURL.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CEAEA1FD1D015EE0003D9621 /* GetURL.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CECCDFB81D0695A700E03BDE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = CECCDFB71D0695A700E03BDE /* Script.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		CEAEA2021D015EE0003D9621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		CEAEA2041D015EE0003D9621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEAEA20C1D015EEE003D9621 /* GetURL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GetURL.entitlements; sourceTree = "<group>"; };
+		CECCDFB71D0695A700E03BDE /* Script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				CEAEA1FF1D015EE0003D9621 /* ShareViewController.swift */,
 				CEAEA2011D015EE0003D9621 /* MainInterface.storyboard */,
 				CEAEA2041D015EE0003D9621 /* Info.plist */,
+				CECCDFB71D0695A700E03BDE /* Script.js */,
 			);
 			path = GetURL;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEAEA2031D015EE0003D9621 /* MainInterface.storyboard in Resources */,
+				CECCDFB81D0695A700E03BDE /* Script.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +429,7 @@
 				CEAEA1F81D015E9D003D9621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEAEA2081D015EE0003D9621 /* Build configuration list for PBXNativeTarget "GetURL" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +438,7 @@
 				CEAEA20A1D015EE0003D9621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

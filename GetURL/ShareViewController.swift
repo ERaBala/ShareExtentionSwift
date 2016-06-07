@@ -21,6 +21,7 @@ class ShareViewController: SLComposeServiceViewController {
             if let itemProvider = item.attachments?.first as? NSItemProvider {
                 if itemProvider.hasItemConformingToTypeIdentifier("public.url") {
                     itemProvider.loadItemForTypeIdentifier("public.url", options: nil, completionHandler: { (url, error) -> Void in
+                        
                         if (url as? NSURL) != nil {
                             // send url to server to share the link
                             print(url);
@@ -32,6 +33,11 @@ class ShareViewController: SLComposeServiceViewController {
         }
     }
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+            self.title = "Wish List"
+    }
+ 
     override func configurationItems() -> [AnyObject]! {
         // To add configuration options via table cells at the bottom of the sheet, return an array of SLComposeSheetConfigurationItem here.
         return []
