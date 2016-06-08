@@ -8,9 +8,13 @@
 
 import UIKit
 import Social
+import MobileCoreServices
 
 class ShareViewController: SLComposeServiceViewController {
-
+    
+ var item: SLComposeSheetConfigurationItem!
+   
+    
     override func isContentValid() -> Bool {
         // Do validation of contentText and/or NSExtensionContext attachments here
         return true
@@ -25,6 +29,10 @@ class ShareViewController: SLComposeServiceViewController {
                         if (url as? NSURL) != nil {
                             // send url to server to share the link
                             print(url);
+
+                            let defaults = NSUserDefaults.standardUserDefaults()
+                            defaults.setObject(url, forKey: "URLArrayValue")
+
                         }
                         self.extensionContext?.completeRequestReturningItems([], completionHandler:nil)
                     })
@@ -39,8 +47,21 @@ class ShareViewController: SLComposeServiceViewController {
     }
  
     override func configurationItems() -> [AnyObject]! {
-        // To add configuration options via table cells at the bottom of the sheet, return an array of SLComposeSheetConfigurationItem here.
-        return []
+        self.item = SLComposeSheetConfigurationItem()
+        
+        self.item.title = "Price"
+        self.item.value = "None"
+        
+        self.item.tapHandler = {
+//            self.teamPickerVC = EditPriceViewController()
+//            self.teamPickerVC.delegate = self
+//            self.pushConfigurationViewController(self.teamPickerVC)
+        /* wen tap the price its go to another controle */
+        
+        }
+        
+        return [self.item]
     }
 
+    
 }

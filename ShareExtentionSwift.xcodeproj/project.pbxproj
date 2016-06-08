@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE510A8B1D0815B300630A18 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE510A8A1D0815B300630A18 /* MobileCoreServices.framework */; };
+		CE510A8D1D08241500630A18 /* URLTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE510A8C1D08241500630A18 /* URLTableViewCell.swift */; };
 		CEAEA1E81D015E9D003D9621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEA1E71D015E9D003D9621 /* AppDelegate.swift */; };
 		CEAEA1EA1D015E9D003D9621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEA1E91D015E9D003D9621 /* ViewController.swift */; };
 		CEAEA1ED1D015E9D003D9621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAEA1EB1D015E9D003D9621 /* Main.storyboard */; };
@@ -43,6 +45,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE510A8A1D0815B300630A18 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CE510A8C1D08241500630A18 /* URLTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLTableViewCell.swift; sourceTree = "<group>"; };
 		CEAEA1E41D015E9D003D9621 /* ShareExtentionSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareExtentionSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAEA1E71D015E9D003D9621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEAEA1E91D015E9D003D9621 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE510A8B1D0815B300630A18 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +84,7 @@
 		CEAEA1DB1D015E9D003D9621 = {
 			isa = PBXGroup;
 			children = (
+				CE510A8A1D0815B300630A18 /* MobileCoreServices.framework */,
 				CEAEA1E61D015E9D003D9621 /* ShareExtentionSwift */,
 				CEAEA1FE1D015EE0003D9621 /* GetURL */,
 				CEAEA1E51D015E9D003D9621 /* Products */,
@@ -99,6 +105,7 @@
 			children = (
 				CEAEA1E71D015E9D003D9621 /* AppDelegate.swift */,
 				CEAEA1E91D015E9D003D9621 /* ViewController.swift */,
+				CE510A8C1D08241500630A18 /* URLTableViewCell.swift */,
 				CEAEA1EB1D015E9D003D9621 /* Main.storyboard */,
 				CEAEA1EE1D015E9D003D9621 /* Assets.xcassets */,
 				CEAEA1F01D015E9D003D9621 /* LaunchScreen.storyboard */,
@@ -230,6 +237,7 @@
 			files = (
 				CEAEA1EA1D015E9D003D9621 /* ViewController.swift in Sources */,
 				CEAEA1E81D015E9D003D9621 /* AppDelegate.swift in Sources */,
+				CE510A8D1D08241500630A18 /* URLTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
